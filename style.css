@@ -1,0 +1,226 @@
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+.header{
+    overflow: hidden;
+}
+
+.topHeader{
+    overflow: hidden;
+}
+
+.searchDiv{
+    float: right;
+}
+
+.search {
+    border: 1px solid grey;
+}
+
+.menu, .menu li ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+.menu > li{
+    float:left;
+    background: grey;
+    text-align: center;
+    padding: 7px 15px;
+}
+.menu > li ul{
+    display: none;
+    position: absolute;
+    text-align: left;
+    z-index:100;
+    background-color: grey;
+    width: 200px;
+    margin-top :5px;
+}
+.menu > li > ul{
+    margin-left:-13px;
+    font-size: 80%;
+}
+.menu > li:hover > ul{
+    display: block;
+}
+.menu > li:hover{
+    background: #707070;
+}
+.menu > li li{
+    padding:4px 0 4px 8px;
+}
+.menu > li > ul > li.dir{
+
+}
+.menu > li > ul > li:hover > ul{
+    display:block;
+}
+.menu > li > ul  li:hover{
+    background-color:#707070;
+}
+.menu > li > ul > li > ul{
+    margin-left:190px;
+    margin-top:-34px;
+    width:220px;
+}
+.menu > li a{
+    text-decoration: none;
+    color: #D1D1D1;
+    display:block;
+}
+
+.breaker{
+    height: 3px;
+    background-color: grey;
+}
+
+.intro{
+    margin: 0% 5% 0% 5%;
+}
+
+.introContent{
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+.introRow{
+    float: left;
+    margin: 0% 2% 1% 0%;
+    width: 32%;
+}
+
+.introRow:last-of-type{
+    margin-right: 0%;
+}
+
+.introRow img{
+    max-width: 100%;
+}
+
+.introRow h3{
+    margin: 1% 0% 1% 0%;
+}
+
+.introRowText{
+    background-color: gainsboro;
+}
+
+.greetings{
+    background-image: url(images/grey.jpg);
+}
+
+.greetingsText{
+    display: inline-block;
+    margin: 2% 0% 2% 2%;
+    width: 20%;
+    background-color: white;
+    word-wrap: normal;
+}
+
+.greetingsText p{
+    margin: 2% 5% 2% 2%;
+}
+
+.main{
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.mainHeader{
+    color: black;
+    margin: 2% 0% 2% 5%;
+}
+
+.mainContent{
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+.mainContentCell{
+    float: left;
+    margin: 0% 2% 2% 0%;
+    width: 49%;
+}
+
+.mainContentCell:last-of-type{
+    margin-right: 0%;
+}
+
+.mainContentCell p{
+    background-color: white;
+    height: 100%;
+    margin: 0% 2% 2% 0%;
+}
+
+.mainContentCell img{
+    max-width: 100%;
+}
+
+.photoContent{
+    margin: 0% 5% 0% 5%;;
+    overflow: hidden;
+}
+
+.photoHeader{
+    margin: 2% 0% 2% 5%;
+}
+
+.photo{
+    margin: 0% 2% 0% 0%;
+    float: left;
+    max-width: 32%;
+}
+
+.photo img{
+    max-width: 100%;
+}
+
+.photo:last-of-type{
+    margin-right: 0%;
+}
+
+.photo figcaption{
+    font-size: 24px;
+}
+
+.footer{
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.footerHeader{
+    margin: 2% 0% 0% 5%;
+}
+
+.footerContent{
+    margin: 0% 5% 2% 5%;
+}
+
+.footerCell{
+    float: left;
+    margin-right: 2%;
+    width: 23.5%
+}
+
+.footerCell h4{
+    margin: 4% 0% 1% 0%;
+}
+
+.footerCell:last-of-type{
+    margin-right: 0%;
+}
+
+.footerCell ul{
+    background-color: white;
+}
+
+.footerCell li{
+    display: block;
+}
+
+
